@@ -1,0 +1,114 @@
+html, body {
+    background: url('../img//bg.jpg') center/cover no-repeat;
+    height: 100%;
+}
+
+@media(max-width: 768px) {
+    #logo img {
+        width: 50%;
+    }
+    #counter div.countdown {
+        font-size: 16px;
+    }
+    #signup form.form-inline {
+        flex-direction: column;
+        width: 100%;
+    }
+    #signup input.form-control {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #icons i.fab {
+        margin: 0.5rem 0 0 0;
+        font-size: 2em;
+    }
+}
+
+@media(min-width: 321px) and (max-width: 568px) {
+    #logo img {
+        width: 20%;
+    }
+}
+
+#logo div.col-sm-12 {
+    text-align: center;
+}
+
+#logo img {
+    padding-top: 1.5rem;
+}
+
+#intro p {
+    color: white;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+
+#counter .countdown {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons .fab {
+    color: white;
+    margin: 0.5rem 1rem;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+    bottom: 5px;
+    color: #6cadde
+}
+
+#icons .facebook:hover {
+    bottom: 5px;
+    color: #3b5990
+}
+
+#icons .google:hover {
+    bottom: 5px;
+    color: #ea4335
+}
+
+#icons .instagram:hover {
+    bottom: 5px;
+    color: #517fa6
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup .form-inline {
+    display: flex;
+    justify-content: center;
+}
+
+#signup .form-control {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 1);
+}
