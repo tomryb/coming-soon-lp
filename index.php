@@ -1,5 +1,7 @@
 <?php
 
+//na razie bezużyteczne
+
 if (isset($_POST['submit'])) {
 
     $from = $_POST['email'];
