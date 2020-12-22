@@ -1,10 +1,10 @@
 html, body {
-    background: url('../img//bg.jpg') center/cover no-repeat;
+    background: url('../img//bg.JPG') center/cover no-repeat;
     height: 100%;
 }
 
 @media(max-width: 768px) {
-    #logo img {
+    #header h1 {
         width: 50%;
     }
     #counter div.countdown {
@@ -25,21 +25,21 @@ html, body {
 }
 
 @media(min-width: 321px) and (max-width: 568px) {
-    #logo img {
+    #header h1 {
         width: 20%;
     }
 }
 
-#logo div.col-sm-12 {
+#header div.col-sm-12 {
     text-align: center;
 }
 
-#logo img {
-    padding-top: 1.5rem;
+#header h1 {
+    padding: 5rem;
 }
 
 #intro p {
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Bangers', cursive;
     font-size: 20px;
@@ -48,7 +48,7 @@ html, body {
 #counter .countdown {
     text-align: center;
     font-size: 28px;
-    color: white;
+    color: rgb(13, 168, 142);
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     margin-top: 2rem;
@@ -63,7 +63,7 @@ html, body {
 }
 
 #icons .fab {
-    color: white;
+    color: black;
     margin: 0.5rem 1rem;
     position: relative;
     bottom: 0;
@@ -102,11 +102,15 @@ html, body {
 #signup .form-control {
     width: auto;
     margin-right: 0.5rem;
+    background-color: black;
+    color: rgb(13, 168, 142);
+    outline: none;
+    box-shadow: none;
 }
 
 #signup .btn {
     background-color: rgba(161, 186, 226, 0.5);
-    color: white;
+    color: black;
 }
 
 #signup .btn:hover {
